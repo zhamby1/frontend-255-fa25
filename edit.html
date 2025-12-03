@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Application</title>
+    <script src="scripts/edit.js" defer></script>
+    
+</head>
+<body>
+    <nav>
+        <a href="/index.html">All Songs</a>
+        <a href="/add_song.html">Add Songs</a>
+    </nav>
+  <h1>Edit Song</h1>
+  <form>
+    
+
+    <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title">
+    </div>
+
+    <div>
+        <label for="artist">Artist:</label>
+        <input type="text" id="artist">
+    </div>
+
+    <div>
+        <label for="released">Released:</label>
+        <input type="date" id="released">
+    </div>
+
+    <div>
+        <label for="popularity">Popularity:</label>
+        <input type="number" min="1" max="10" id="popularity">
+    </div>
+
+    <div>
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre">
+    </div>
+
+    <div>
+        <input type="button" id="updateBtn" value="Update Song">
+    </div>
+
+
+</form>
+<div id="error"></div>
+
+</body>
+</html>
